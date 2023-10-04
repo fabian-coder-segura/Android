@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ManejoLayout</string>
+    <string name="name_product">Nombre producto</string>
+    <string name="weight">Peso (Kg)</string>
+    <string name="Description">Descripción</string>
+    <string name="btnSend">Enviar</string>
+
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="*"
+    android:shrinkColumns="*">
+
+    <TableRow>
+        <EditText android:layout_width="wrap_content"
+            android:id="@+id/resultado"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:hint="0"
+            android:layout_span="4">
+        </EditText>
+    </TableRow>
+    <TableRow>
+        <Button android:layout_width="wrap_content"
+            android:id="@+id/num7"
+            android:layout_height="wrap_content"
+            android:text="@string/Num7"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Num8"
+            android:id="@+id/num8"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Num9"
+            android:id="@+id/num9"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sumar"
+            android:id="@+id/sumar"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+    </TableRow>
+
+    <TableRow>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Num4"
+            android:id="@+id/num4"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Num5"
+            android:id="@+id/num5"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Num6"
+            android:id="@+id/num6"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restar"
+            android:id="@+id/restar"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+    </TableRow>
+
+    <TableRow>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Num1"
+            android:id="@+id/num1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Num2"
+            android:id="@+id/num2"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Num3"
+            android:id="@+id/num3"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplicar"
+            android:id="@+id/multiplicar"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+    </TableRow>
+
+
+
+    <TableRow>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/borrar"
+            android:id="@+id/borrar"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Num0"
+            android:id="@+id/num0"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/igual"
+            android:id="@+id/igual"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dividir"
+            android:id="@+id/dividir"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="@color/gris"
+            android:layout_margin="20dp">
+        </Button>
+    </TableRow>
+
+</TableLayout>

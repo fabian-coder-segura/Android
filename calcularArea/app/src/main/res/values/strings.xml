@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">calcularArea</string>
+    <string name="Título">Calcular Área</string>
+    <string name="AreaRectangulo">Área Rectangulo</string>
+    <string name="AreaTriangulo">Área Triangulo</string>
+</resources>

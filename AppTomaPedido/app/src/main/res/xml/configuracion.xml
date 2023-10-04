@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Configuración">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/listSize"
+            android:entryValues="@array/listSizeValues"
+            android:key="@string/lista_pref"
+            android:title="Cantidad de mesas"
+            android:summary="Configure la cantidad de mesas">
+
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/__6_layout_imgcafe" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:text="Bienvenido"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:textSize="34sp"
+        android:text="Café" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Sesión 1."
+        android:textColor="@android:color/white"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Sesión 2."
+        android:textColor="@android:color/white"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Sesión 3."
+        android:textColor="@android:color/white"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="550dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:10 am."
+        android:textColor="@android:color/white"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="450dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4:00 pm."
+        android:textColor="@android:color/white"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="500dp"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:00 pm."
+        android:textColor="@android:color/white"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="550dp"
+        android:textSize="25sp"/>
+</RelativeLayout>
