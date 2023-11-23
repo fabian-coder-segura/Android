@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DatosPersonalesFragment</string>
+    <string name="description">Registro datos personales</string>
+
+    <string name="hint_name">Nombres</string>
+    <string name="hint_last_name">Apellidos</string>
+    <string name="hint_city">Ciudad nacimiento</string>
+    <string name="hint_country">País</string>
+    <string name="hint_years">Edad</string>
+    <string name="save">Guardar</string>
+    <string name="clean">Limpiar</string>
+
+    <string name="summary">RESUMEN</string>
+    <string name="summary_return_">VOLVER</string>
+    <string name="summary_place">LUGAR</string>
+    <string name="summary_name">NOMBRE</string>
+
+    <string name="lista_pref">KeyPref</string>
+    <string-array name="listSize">
+        <item>Little</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="listSizeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
